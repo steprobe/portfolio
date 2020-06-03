@@ -35,7 +35,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden;
 
   &.show {
@@ -52,12 +51,39 @@
     width: 50%;
     height: 100vh;
     overflow: hidden;
-    background-color: red;
   }
 
   &-nav {
     margin: 0;
     padding: 0;
-    background-color: blue;
+    opacity: 0.9;
+    background: darken($color: $primary-color, $amount: 5);
+    list-style: none;
+    transform: translate3d(0, -100%, 0);
+    @include easeOut;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  &-branding {
+    background: rgba($primary-color, 0.9);
+    transform: translate3d(0, 100%, 0);
+    @include easeOut;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+
+    .portrait {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background: url('../img/profile.jpg');
+      background-size: contain;
+      opacity: 1;
+      border: solid 3px $secondary-color;
+    }
   }
 }
