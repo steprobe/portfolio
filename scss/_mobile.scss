@@ -44,6 +44,36 @@
       height: 150px;
     }
   }
+
+  .about-portrait {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about-heading {
+    font-size: 2rem;
+  }
+
+  .about-info {
+    grid-template-areas:
+      'profile'
+      'bio'
+      'job1'
+      'job2'
+      'job3'
+      'job4'
+      'job5';
+
+    grid-template-columns: 1fr;
+  }
+
+  .bio {
+    text-align: left;
+
+    .about-heading {
+      text-align: center;
+    }
+  }
 }
 
 // Phones
