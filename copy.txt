@@ -1,0 +1,9 @@
+Greetings! As a quick introduction, I am a software engineer and technical leader with over fifteen years experience in mobile, web, backend and embedded technologies. I started at the bottom of the stack, writing debug development tools for the Symbian operating system. This included standalone tools, user space tools and kernel instrumentation.
+
+After this, I moved to Spain, where I initially worked on C++ point cloud analysis libraries and their corresponding GUI's. This also involved writing some drivers for cameras and so on. The call of mobile was strong however, and I moved over to check out the Android eco system, which has been my primary focus since 2011. Since then I have worked on a range of applications, from simple agenda style apps to full server driver widget engines to VOIP apps. I have also done the backend for some of these apps, using NodeJS, Postgres, MongoDB among others. 
+
+In the last few years in addition to development, I have worked as technical lead of an interdisciplinary team - web, mobile and backend. This has been a great experience - challenging but very rewarding. I have always been interested in the methodology that drives great software teams, both technical and organisational. I believe strongly in teams over rockstars and in providing the minimal amount of process required to drive a teams maximum stable velocity. Strategies like CI/CD and automated testing are very important to achieve these goals. 
+
+Outside of the technologies that I work on directly day to day, I am also interested in data science, machine learning and cryptocurrency. 
+
+And outside of technology, I have two great kids and a fantastic wife and am enjoying life in Barcelona!
