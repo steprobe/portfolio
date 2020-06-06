@@ -2,7 +2,8 @@ $primary-color: #444;
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/background-sea.jpg);
-$background-opacity: 0.85;
+$background-opacity-index: 0.65;
+$background-opacity-about: 0.9;
 
 @mixin easeOut {
   transition: all 0.7s ease-out;
@@ -11,21 +12,21 @@ $background-opacity: 0.85;
 @mixin background {
   @if $show-home-image {
     &#bg-img {
-      background: $home-image;
+      background-image: $home-image;
       background-attachment: fixed;
       background-size: cover;
     }
 
-    &:after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      background-color: rgba($primary-color, $background-opacity);
-    }
+    // &:after {
+    //   content: '';
+    //   position: absolute;
+    //   top: 0;
+    //   right: 0;
+    //   width: 100%;
+    //   height: 100vh;
+    //   z-index: -1;
+
+    // }
   }
 }
 

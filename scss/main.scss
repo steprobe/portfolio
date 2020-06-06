@@ -8,12 +8,32 @@
 
 body {
   @include background;
-  background: $primary-color;
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+}
+
+// #bg-color {
+//
+// }
+
+.bg-color {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+
+  &.index {
+    background-color: rgba($primary-color, $background-opacity-index);
+  }
+
+  &.about {
+    background-color: rgba($primary-color, $background-opacity-about);
+  }
 }
 
 h1,
