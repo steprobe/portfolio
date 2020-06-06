@@ -9,16 +9,6 @@ $background-opacity-about: 0.9;
   transition: all 0.7s ease-out;
 }
 
-@mixin background {
-  @if $show-home-image {
-    &#bg-img {
-      background-image: $home-image;
-      background-attachment: fixed;
-      background-size: cover;
-    }
-  }
-}
-
 @function set-text-color($bg-color) {
   @if (lightness($bg-color) > 40) {
     @return #000;

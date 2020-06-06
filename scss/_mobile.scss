@@ -1,10 +1,16 @@
-// Widescreen
-@include mediaXl {
-}
+// // Widescreen
+// @include mediaXl {
+//   #bg-img {
+//     background-size: cover;
+//   }
+// }
 
-// Desktops and tablets
-@include mediaLg {
-}
+// // Desktops and tablets
+// @include mediaLg {
+//   #bg-img {
+//     background-size: cover;
+//   }
+// }
 
 // Tablets and small laptops
 @include mediaMd {

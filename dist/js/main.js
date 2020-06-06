@@ -29,7 +29,16 @@ function toggleMenu() {
   }
 }
 
+// Android browser doesn't seem to like the bg-image cover
+if (navigator.appVersion.indexOf('SamsungBrowser') == -1) {
+  document.querySelector('body#bg-img').classList.add('bg-img-not-samsung');
+}
+
 window.addEventListener('DOMContentLoaded', function () {
+  if (navigator.appVersion.indexOf('Chrome/') != -1) {
+    // modify button
+  }
+
   var form = document.getElementById('contact-form');
   var button = document.getElementById('contact-send-button');
   var status = document.getElementById('contact-status');
