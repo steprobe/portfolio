@@ -8,7 +8,7 @@
     <title>Stephen Roberts Portfolio</title>
   </head>
   <body id="bg-img">
-    <div class="bg-color index">
+    <div class="bg-color about">
       <header>
         <div class="menu-btn">
           <div class="btn-line"></div>
@@ -22,22 +22,25 @@
           </div>
 
           <ul class="menu-nav">
-            <li class="nav-item current"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="about.html" class="nav-link">About me</a></li>
             <!-- <li class="nav-item"><a href="work.html" class="nav-link">My work</a></li> -->
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact me</a></li>
+            <li class="nav-item current"><a href="contact.html" class="nav-link">Contact me</a></li>
           </ul>
         </nav>
       </header>
 
       <main id="home">
-        <h1 class="lg-heading">Stephen <span class="text-secondary">Roberts</span></h1>
-        <h2 class="sm-heading">Mobile, Web & Backend developer</h2>
+        <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
 
-        <div class="icons">
-          <a href="https://twitter.com/steprobe" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-          <a href="https://www.linkedin.com/in/steprobe/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-          <a href="https://github.com/steprobe" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <div>
+          <form id="contact-form" action="https://formspree.io/mjvawlpo" method="POST">
+            <input type="text" id="fname" name="firstname" placeholder="Name" />
+            <input type="text" id="lname" name="lastname" placeholder="email" />
+            <textarea id="subject" name="subject" placeholder="Message" style="height: 200px;"></textarea>
+            <input id="contact-send-button" type="submit" value="Submit" />
+            <p id="contact-status"></p>
+          </form>
         </div>
       </main>
 

@@ -1,6 +1,7 @@
 @import 'config';
 @import 'menu';
 @import 'about';
+@import 'contact';
 
 * {
   box-sizing: border-box;
@@ -14,10 +15,6 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
-
-// #bg-color {
-//
-// }
 
 .bg-color {
   position: fixed;
