@@ -179,7 +179,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background-image: url(../img/background-sea.jpg);
+    background-image: url(../img/background-sea-opt.jpg);
     background-attachment: fixed;
     background-size: cover; }
 
